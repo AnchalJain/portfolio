@@ -1,4 +1,7 @@
-
+#myNavbar, .collapse, .navbar-collapse{
+	background: white;
+	border-radius: 0px;
+}
 
 .img-responsive,.img-circle{
 	
@@ -13,31 +16,4 @@
 .h1{
 	font-family: sans-serif;
 	text-align: center;
-}
-/*
-i{
-  display: inline-block;
-  border-radius: 90px;
-  box-shadow: 10px 10px 10px;
-  background-color: white ;
-  color: grey;
-}*/
-i{
-	margin-right: 20px;
-}
-
-a:link{
-	display: inline-block;
-	text-decoration: none;
-	color: grey;
-	padding: 30px;
-	border-radius: 190px;
-	box-shadow: 20px 20px 20px;
-
-}
-a:hover,a:active,a:focus {
-	outline: 0;
-	text-decoration: none;
-	/*color: #999;*/
-	color: orange;
 }
