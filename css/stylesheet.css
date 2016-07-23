@@ -1,7 +1,51 @@
-#myNavbar, .collapse, .navbar-collapse{
+
+
+.container-fluid, .nav, .navbar-inverse {
 	background: white;
 	border-radius: 0px;
+	border: 0px;
+	border-color: white;
+	
 }
+
+.navbar-header  a{
+	font-size: 24px;
+
+}
+
+.navbar-header  a :hover{
+	font-size: 24px;
+	
+}
+
+#myNavbar, .collapse, .navbar-collapse > li > a {
+	font-size: 24px;
+}
+
+#myNavbar, .collapse, .navbar-collapse > li > a :active
+#myNavbar, .collapse, .navbar-collapse > li > a :focus{
+	color: #FE5A1D;
+}
+
+.container, .wrapper{
+
+	max-width: 900px;
+
+}
+
+.container, .wrapper h2{
+	
+	color: #FE5A1D;
+	text-align: 
+}
+
+.container, .wrapper p {
+	font-size: 24px;
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+}
+
+
 
 .img-responsive,.img-circle{
 	
