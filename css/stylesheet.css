@@ -1,16 +1,24 @@
+.navbar{
+	background-color: transparent;
+	border: 0px;
+}
 
 
 .container-fluid, .nav, .navbar-inverse {
 	background: white;
 	border-radius: 0px;
 	border: 0px;
-	border-color: white;
+	border-color: transparent;
 	
 }
 
 .navbar-header  a{
 	font-size: 24px;
 
+}
+
+.navbar-header, .navbar-toggel, .icon-bar{
+	color: #FE5A1D;
 }
 
 .navbar-header  a :hover{
@@ -59,7 +67,7 @@
     position: relative;
     margin-top: 100px;
     margin-left: 50px;
-    border-radius: 500%;
+    border-radius: 100%;
 }
 
 .h1{
